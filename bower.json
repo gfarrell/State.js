@@ -1,0 +1,23 @@
+{
+  "name": "State.js",
+  "version": "0.0.1",
+  "authors": [
+    "Gideon Farrell <me@gideonfarrell.co.uk>"
+  ],
+  "description": "Basic state object with events",
+  "main": "state.js",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "state",
+    "objects",
+    "events"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/gfarrell/State.js",
+  "dependencies": {
+    "Event.js": "~1.2.1"
+  }
+}
