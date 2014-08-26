@@ -57,7 +57,7 @@ var _module = function(Vent) {
 };
 
 if(typeof define == 'function') {
-    define(['Event.js'], _module);
+    define(['event'], _module);
 } else if(typeof module == 'object') {
-    module.exports = _module(require('Event.js'));
+    module.exports = _module(require('event'));
 }
