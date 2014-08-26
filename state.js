@@ -22,7 +22,6 @@ var _module = function(Vent) {
                 Object.defineProperty(State, prop, {
                     configurable: false,
                     enumerable:   true,
-                    writable:     true,
                     get:          function() {
                         return _state[prop] || null;
                     },
@@ -30,9 +29,10 @@ var _module = function(Vent) {
                         var old = _state[prop];
                         _state[prop] = val;
                         this.publish('change', val, old);
-                    },
-                    value: initial_values[prop] || null
+                    }
                 });
+
+                _state[prop] = initial_values[prop] || null;
             });
 
             State.forEach = function(callback, bind) {
