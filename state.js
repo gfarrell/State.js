@@ -28,7 +28,7 @@ var _module = function(Vent) {
                     set:          function(val) {
                         var old = _state[prop];
                         _state[prop] = val;
-                        this.publish('change', val, old);
+                        this.publish('change', prop, val, old);
                     }
                 });
 
