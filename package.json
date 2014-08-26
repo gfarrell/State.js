@@ -1,0 +1,27 @@
+{
+  "name": "state.js",
+  "version": "0.0.1",
+  "description": "Basic state object with events",
+  "main": "state.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "open ./test/test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gfarrell/State.js.git"
+  },
+  "keywords": [
+    "state",
+    "objects",
+    "events"
+  ],
+  "author": "Gideon Farrell <me@gideonfarrell.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfarrell/State.js/issues"
+  },
+  "homepage": "https://github.com/gfarrell/State.js"
+}
