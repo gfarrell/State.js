@@ -19,5 +19,9 @@
   "homepage": "github.com/gfarrell/State.js",
   "dependencies": {
     "Event.js": "~1.2.1"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.14",
+    "jasmine": "~2.0.3"
   }
 }
