@@ -1,6 +1,6 @@
 {
   "name": "state.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Basic state object with events",
   "main": "state.js",
   "directories": {
