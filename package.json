@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "event.js": "git://github.com/gfarrell/Event.js",
+    "event.js": "git://github.com/gfarrell/Event.js"
   },
   "scripts": {
     "test": "open ./test/test.html"
